@@ -16,7 +16,7 @@ public class Employer {
     em.getTransaction().begin();
     Labour labour =  new Labour();
     labour.setLid(0);
-    labour.setLname("Mandeep");
+    labour.setLname("  Mandeep");
     labour.setLsalary(34000);
     em.persist (labour);
     em.getTransaction().commit();
