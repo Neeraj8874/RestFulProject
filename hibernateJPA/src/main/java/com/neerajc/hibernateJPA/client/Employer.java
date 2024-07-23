@@ -14,11 +14,11 @@ public class Employer {
     EntityManagerFactory en = Persistence.createEntityManagerFactory("labour");
     EntityManager em =  en.createEntityManager();
     em.getTransaction().begin();
-    Labour labour =new Labour();
+    Labour labour =  new Labour();
     labour.setLid(0);
     labour.setLname("Mandeep");
     labour.setLsalary(34000);
-    em.persist(labour);
+    em.persist (labour);
     em.getTransaction().commit();
     em.close();
 	}
