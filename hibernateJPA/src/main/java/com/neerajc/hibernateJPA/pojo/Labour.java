@@ -4,18 +4,19 @@ public class Labour {
 int lid;
 String lname;
 int lsalary;
-public int getLid() {
-	return lid;
-}
 public void setLid(int lid) {
 	this.lid = lid;
 }
-public String getLname() {
-	return lname;
-}
+public int getLid() {
+	return lid;
+}	
+
 public void setLname(String lname) {
 	this.lname = lname;
 }
+public String getLname() {
+	return lname;
+}	
 public int getLsalary() {
 	return lsalary;
 }
